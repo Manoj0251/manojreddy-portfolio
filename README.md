@@ -1,4 +1,4 @@
-# Manoj Reddy Poreddy - DevOps Portfolio
+# Manoj Reddy Poreddy - Portfolio
 
 A modern, responsive portfolio website showcasing 11+ years of experience in DevOps, Site Reliability Engineering, and Cloud Infrastructure.
 
@@ -93,7 +93,7 @@ portfolio/
    ```bash
    git init
    git add .
-   git commit -m "Initial commit: DevOps portfolio"
+   git commit -m "Initial commit: portfolio"
    ```
 
 2. **Connect to GitHub**
@@ -264,5 +264,3 @@ This project is open source and available for personal and commercial use.
 5. Share your professional portfolio!
 
 ---
-
-**Built with ❤️ for the DevOps Community**
