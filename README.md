@@ -1,47 +1,47 @@
 # Manoj Reddy Poreddy - Portfolio
 
-A modern, responsive portfolio website showcasing 11+ years of experience in DevOps, Site Reliability Engineering, and Cloud Infrastructure.
+A full-stack portfolio website featuring an Angular frontend and a Node.js/Express backend.
 
 ![Portfolio Preview](https://img.shields.io/badge/Status-Production_Ready-success?style=for-the-badge)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Angular](https://img.shields.io/badge/Angular-%231dd1a1.svg?style=for-the-badge&logo=angular&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-%23339933.svg?style=for-the-badge&logo=node.js&logoColor=white)
 
 ## 🚀 Features
 
-- **Modern Terminal-Inspired Design**: Dark theme with cyan and purple gradients
-- **Fully Responsive**: Optimized for mobile, tablet, and desktop
-- **Smooth Animations**: Scroll-triggered animations and typing effects
-- **Interactive Elements**: Animated progress bars, hover effects, and transitions
-- **SEO Optimized**: Complete meta tags for search engines and social media
-- **Accessible**: WCAG compliant with ARIA labels and keyboard navigation
-- **Performance Optimized**: Fast loading with efficient CSS and JavaScript
-- **Contact Form**: Frontend validation with visual feedback
+- **Angular Frontend**: Single-page application with reusable components and reactive forms
+- **Node Backend**: Express API serving contact form submissions and application status
+- **Responsive Design**: Terminal-inspired layout optimized for desktop and mobile
+- **Form Integration**: Contact form posts to a backend API endpoint
+- **Static Asset Serving**: Production build served from `dist/portfolio`
 
 ## 📁 Project Structure
 
 ```
 portfolio/
-├── index.html          # Main HTML file
-├── style.css           # Comprehensive stylesheet
-├── script.js           # Interactive JavaScript
-├── favicon.svg         # DevOps-themed favicon
-└── README.md           # Documentation
+├── src/
+│   ├── app/               # Angular app components and modules
+│   ├── assets/            # Static assets
+│   ├── environments/      # Angular environment configs
+│   ├── index.html         # Angular host page
+│   └── styles.css         # Global styles
+├── server/                # Node.js Express backend
+│   └── index.js
+├── angular.json
+├── package.json
+├── tsconfig.json
+└── README.md
 ```
 
 ## 🛠️ Technologies Used
 
-- **HTML5**: Semantic markup and structure
+- **Angular**: Component-driven SPA with reactive forms and HTTP client
+- **TypeScript**: Type-safe application logic
+- **Node.js + Express**: Backend API and static file serving
 - **CSS3**: Modern styling with:
   - CSS Grid & Flexbox layouts
   - CSS Variables for theming
   - Keyframe animations
   - Glassmorphism effects
-- **Vanilla JavaScript**: No dependencies
-  - Intersection Observer API
-  - Form validation
-  - Smooth scrolling
-  - Dynamic typing animation
 
 ## 🎨 Design Features
 
